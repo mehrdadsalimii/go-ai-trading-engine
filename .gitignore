@@ -1,0 +1,64 @@
+# Environment variables
+.env
+.env.local
+
+# IDE
+.idea
+
+# Go build artifacts
+/bin
+/dist
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test artifacts
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# Go profiling
+*.prof
+*.pprof
+cpu.out
+mem.out
+
+# Dependency directories
+vendor/
+
+# Go module cache (typically stored globally, but just in case)
+go.work
+go.work.sum
+
+# Air live-reload tool (if used)
+tmp/
+.air.toml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Database files (local development)
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker local volumes (if any)
+.docker/
